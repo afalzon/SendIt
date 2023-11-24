@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Loop through each button
     for (var i = 0; i < buttons.length; i++) {
         // If the button's text content is 'Send'
-        if (buttons[i].textContent === 'Send') {
+        if (buttons[i].textContent === 'Send  ') {
             // Replace it with 'Send it 🤙'
             buttons[i].textContent = 'Send it 🤙';
         }
